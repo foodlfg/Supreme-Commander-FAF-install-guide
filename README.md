@@ -323,26 +323,32 @@ Terminal output:
     Setting up python3-jsonschema (2.6.0-2) ...
     update-alternatives: using /usr/bin/python3-jsonschema to provide /usr/bin/jsonschema (jsonschema) in auto mode
 
-[b]1.3[/b]
-Run the client. It works for me at this point.
-test1@comp1:~/Games/fafclient$ python3 client-0.18.0/src/__main__.py
-[code]Gtk-Message: 20:39:46.489: Failed to load module "canberra-gtk-module"
-[27892:27922:0707/203948.898161:ERROR:nss_ocsp.cc(591)] No URLRequestContext for NSS HTTP handler. host: s2.symcb.com
-[27892:27922:0707/203948.898185:ERROR:nss_ocsp.cc(591)] No URLRequestContext for NSS HTTP handler. host: s2.symcb.com
-[27892:27922:0707/203948.898202:ERROR:nss_ocsp.cc(591)] No URLRequestContext for NSS HTTP handler. host: s1.symcb.com
-[27892:27922:0707/203948.899179:ERROR:nss_ocsp.cc(591)] No URLRequestContext for NSS HTTP handler. host: s2.symcb.com
-[27892:27922:0707/203948.899196:ERROR:nss_ocsp.cc(591)] No URLRequestContext for NSS HTTP handler. host: s2.symcb.com
-[27892:27922:0707/203948.899217:ERROR:nss_ocsp.cc(591)] No URLRequestContext for NSS HTTP handler. host: s1.symcb.com[/code]
+### 1.3 Run the client
+Run the client. It should work at this point.
+
+`test1@comp1:~/Games/fafclient$ python3 client-0.18.1/src/__main__.py`
+
+Normal terminal output:
+
+    Gtk-Message: 20:39:46.489: Failed to load module "canberra-gtk-module"
+    [27892:27922:0707/203948.898161:ERROR:nss_ocsp.cc(591)] No URLRequestContext for NSS HTTP handler. host: s2.symcb.com
+    [27892:27922:0707/203948.898185:ERROR:nss_ocsp.cc(591)] No URLRequestContext for NSS HTTP handler. host: s2.symcb.com
+    [27892:27922:0707/203948.898202:ERROR:nss_ocsp.cc(591)] No URLRequestContext for NSS HTTP handler. host: s1.symcb.com
+    [27892:27922:0707/203948.899179:ERROR:nss_ocsp.cc(591)] No URLRequestContext for NSS HTTP handler. host: s2.symcb.com
+    [27892:27922:0707/203948.899196:ERROR:nss_ocsp.cc(591)] No URLRequestContext for NSS HTTP handler. host: s2.symcb.com
+    [27892:27922:0707/203948.899217:ERROR:nss_ocsp.cc(591)] No URLRequestContext for NSS HTTP handler. host: s1.symcb.com
 
 
 
-[b][size=150]Setting up the FaF Client[/size][/b]
-[b]2.0[/b]
-Setting up the client
+## Setting up the FaF Client
+
+### 2.0 Setting up the client
+
 Options -> Settings -> Game Path, for me it's:
 /home/test1/.local/share/lutris/runners/winesteam/prefix64/drive_c/Program Files (x86)/Steam/steamapps/common/Supreme Commander Forged Alliance
 
-[b]2.1[/b]
+### 2.1 Modifying FA Lobby.ini 
+
 Modifying FA Lobby.ini to use the correct Wine version etc
 /home/test1/.config/ForgedAllianceForever/FA Lobby.ini
 Added:
