@@ -1,8 +1,6 @@
 # Supreme-Commander-FAF-install-guide
 Supreme Commander FAF install guide on Ubuntu
-
-<span style="color:#77216F">Ubuntu Guide</span>
-[color=#2C001E][b][i]18.04 LTS, 18.10[/color][/i][/b]
+18.04 LTS, 18.10
 
 
 It works!
@@ -11,12 +9,13 @@ The wiki is outdated but still useful.
 https://wiki.faforever.com/index.php?title=Setting_Up_FAF_Linux
 
 
-[size=150][b]System properties[/b][/size]
-[b]Ubuntu Budgie 18.04 LTS[/b]
-test1@comp1:~$ uname -a
-[code]Linux comp1 4.15.0-20-generic #21-Ubuntu SMP Tue Apr 24 06:16:15 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux[/code]
+## System properties
+- **Ubuntu 18.04 LTS, 18.10**
+_test1@comp1:~$ uname -a_
 
-[b]Wine[/b], custom downloaded by Lutris (see below)
+    Linux comp1 4.15.0-20-generic #21-Ubuntu SMP Tue Apr 24 06:16:15 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+- **Wine**, custom downloaded by Lutris or PlayOnLinux (see below)
 Wine 3.10-x86_64
 
 [b]Graphics info[/b]
