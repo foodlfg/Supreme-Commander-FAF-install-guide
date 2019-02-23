@@ -6,7 +6,7 @@ Supreme Commander Forged Alliance Forever (FAF) install guide on Ubuntu
 It works!\
 If you have problems running the game/client on Ubuntu 18.xx, follow the steps below.
 
-The wiki is outdated but still useful:
+The wiki is outdated but still useful:\
 https://wiki.faforever.com/index.php?title=Setting_Up_FAF_Linux
 
 
