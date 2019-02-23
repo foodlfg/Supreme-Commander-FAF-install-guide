@@ -15,6 +15,7 @@ If you have additional questions please contact the community:
  - [The official FAF Discord Channel: #technical-help](https://discordapp.com/channels/197033481883222026/202928463076786176)
 
 _Note:_
+
 _This guide only features the [legacy Python client](https://github.com/FAForever/client/releases). The new [Java Downlord's client](https://github.com/FAForever/downlords-faf-client/releases) will be added later. The development of the Python client stopped so the community only supports the Java client. Currently both works._
 
 ## System properties
