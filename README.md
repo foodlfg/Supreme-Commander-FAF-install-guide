@@ -22,20 +22,22 @@ _test1@comp1:~$ uname -a_
   - System default Wine v3.0 cannot run the game
 
 - **Graphics info**
-test1@comp1:~$ glxinfo | grep 'version'
-[code]server glx version string: 1.4
-client glx version string: 1.4
-GLX version: 1.4
-    Max core profile version: 4.5
-    Max compat profile version: 3.0
-    Max GLES1 profile version: 1.1
-    Max GLES[23] profile version: 3.1
-OpenGL core profile version string: 4.5 (Core Profile) Mesa 18.0.0-rc5
-OpenGL core profile shading language version string: 4.50
-OpenGL version string: 3.0 Mesa 18.0.0-rc5
-OpenGL shading language version string: 1.30
-OpenGL ES profile version string: OpenGL ES 3.1 Mesa 18.0.0-rc5
-OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.10[/code]
+
+_test1@comp1:~$ glxinfo | grep 'version'_
+
+    server glx version string: 1.4
+    client glx version string: 1.4
+    GLX version: 1.4
+        Max core profile version: 4.5
+        Max compat profile version: 3.0
+        Max GLES1 profile version: 1.1
+        Max GLES[23] profile version: 3.1
+    OpenGL core profile version string: 4.5 (Core Profile) Mesa 18.0.0-rc5
+    OpenGL core profile shading language version string: 4.50
+    OpenGL version string: 3.0 Mesa 18.0.0-rc5
+    OpenGL shading language version string: 1.30
+    OpenGL ES profile version string: OpenGL ES 3.1 Mesa 18.0.0-rc5
+    OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.10
 
 test1@comp1:~$ glxinfo | grep 'Extended renderer info' -A 30
 [code]Extended renderer info (GLX_MESA_query_renderer):
