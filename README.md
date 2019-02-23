@@ -19,6 +19,7 @@ _test1@comp1:~$ uname -a_
 - **Wine**, custom downloaded by Lutris or PlayOnLinux (see below)
 
 Wine 3.10, Wine 3.16, Wine 4.0 tested and work
+
 System default Wine 3.0 cannot run the game
 
 - **Graphics info**
