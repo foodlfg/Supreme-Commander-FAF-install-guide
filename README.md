@@ -1,4 +1,4 @@
-# Supreme-Commander-FAF-install-guide
+# Supreme Commander FAF install guide
 Supreme Commander Forged Alliance Forever (FAF) install guide on Ubuntu
 18.04 LTS and 18.10
 
@@ -128,6 +128,7 @@ The location of the `Game.perfs` file:
     ../drive_c/users/test1/Local Settings/Application Data/Gas Powered Games/Supreme Commander Forged Alliance/Game.prefs
 
 ### 0.3 Test the vanilla game
+
 Test the base game. At launch, Steam installs the necessary directx dlls.
 
 _Note:_\
@@ -135,16 +136,18 @@ _If you use a retail (ISO) copy of the game then you should follow the wiki:_\
 https://wiki.faforever.com/index.php?title=Setting_Up_FAF_Linux#Install_using_the_retail_ISO
 
 
-[b][size=150]Setting up the system[/size][/b]
-[b]1.0[/b]
-FaF Client v0.18.0 (currently the latest)
-https://github.com/FAForever/client/releases/tag/0.18.0
-in ~/Games/fafclient/client-0.18.0
+## Setting up the system
 
-Uid v4.0.5 (currently the latest)
-https://github.com/FAForever/uid/releases/tag/v4.0.5
-in /usr/local/bin/
-with sudo chmod +x /usr/local/bin/faf-uid
+### 1.0 Download the Python client
+
+FAF Python Client v0.18.1 (the latest)\
+https://github.com/FAForever/client/releases/tag/0.18.1\
+Location: `~/Games/fafclient/client-0.18.1`
+
+Uid v4.0.5 (currently the latest)\
+https://github.com/FAForever/uid/releases/tag/v4.0.5\
+Location: `/usr/local/bin/`\
+Command applied: `sudo chmod +x /usr/local/bin/faf-uid`
 
 [b]1.1[/b]
 Adding the release version file
