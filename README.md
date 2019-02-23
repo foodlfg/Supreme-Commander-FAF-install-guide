@@ -86,18 +86,26 @@ _test1@comp1:~$ glxinfo | grep 'Extended renderer info' -A 30_
 Install [Lutris](https://lutris.net/downloads/) or PlayOnLinux that can install Windows Steam and can download the Wine versions that can be seen above. Windows Steam can install the game and the necessary libraries.
 If you are a terminal/Wine ninja and you are ok with compiling Wine v3.10 for the system (system default Wine v3.0 is no good) then don't install Lutris or PlayOnLinux, just Wine should be enough.
 
+PlayOnLinux can be found in the Ubuntu repositories.
 
-[b]0.1[/b]
+**0.1**
 Install Steam windows version (I've bought the game on Steam)
 It gave me an error when downloading the game (it's a new Steam-Wine compatibility bug):
 Editing the Steam config file solved it:
 https://www.reddit.com/r/wine_gaming/comments/8r0gh6/steam_in_winedevel_content_servers_unreachable/e0riqd9/
 Short version:
-Install Linux Steam, download a random game (ex: Doki Doki Literature Club!), then find the Steam config file called: config.vdf
-Then you copypasta the line beginning with [i]"CS"[/i] from the linux Steam config file to the Windows Steam config file.
+Install Linux Steam, download a random game (ex: Doki Doki Literature Club!), then find the Steam config file called `config.vdf`.
+Then you copypasta the line beginning with `"CS"` from the linux Steam config file to the Windows Steam config file.
 Location of the Steam config files:
-Linux: ~/.steam/steam/config/config.vdf
-Windows: "your wine prefix directory"/drive_c/Program Files/Steam/config/config.vdf
+Linux: `~/.steam/steam/config/config.vdf`
+Windows: `"your wine prefix directory"/drive_c/Program Files/Steam/config/config.vdf`
+
+_Note:_
+_I recommend using Wine v2.x when you install Windows Steam (there are some logging in issues otherwise) then switch to Wine v3.10+ when you try to run the game from Windows Steam._
+
+_There are possible, alternative ways to install the game on Linux, for example using Linux Steam and enabling Proton but this is not tested with Legacy Python Client. 
+The client sets the WINEPREFIX environment variable before launching the game, this might interfere with Proton._
+
 
 [b]0.2[/b]
 Install Supreme Commander Forged Alliance using Steam
