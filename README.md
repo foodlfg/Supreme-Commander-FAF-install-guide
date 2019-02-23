@@ -32,7 +32,7 @@ The wiki is outdated but still useful:\
 https://wiki.faforever.com/index.php?title=Setting_Up_FAF_Linux
 
 
-If you have additional questions please contact the community:
+If you have questions please contact the community:
  - [FAF forum Linux support thread](http://forums.faforever.com/viewtopic.php?t=4507)
  - [The official FAF Discord Channel: #technical-help](https://discordapp.com/channels/197033481883222026/202928463076786176)
 
