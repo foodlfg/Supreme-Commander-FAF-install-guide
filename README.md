@@ -141,11 +141,11 @@ https://wiki.faforever.com/index.php?title=Setting_Up_FAF_Linux#Install_using_th
 ### 1.0 Download the Python client
 
 FAF Python Client v0.18.1 (the latest)\
-https://github.com/FAForever/client/releases/tag/0.18.1\
+https://github.com/FAForever/client/releases/tag/0.18.1 \
 Location: `~/Games/fafclient/client-0.18.1`
 
 Uid v4.0.5 (currently the latest)\
-https://github.com/FAForever/uid/releases/tag/v4.0.5\
+https://github.com/FAForever/uid/releases/tag/v4.0.5 \
 Location: `/usr/local/bin/`\
 Command applied: `sudo chmod +x /usr/local/bin/faf-uid`
 
