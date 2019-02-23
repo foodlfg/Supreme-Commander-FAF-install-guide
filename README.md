@@ -83,15 +83,15 @@ _test1@comp1:~$ glxinfo | grep 'Extended renderer info' -A 30_
 
 
 ## Installing the game
-### 0.0
+### 0.0 Install Lutris or PlayOnLinux
+
 Install [Lutris](https://lutris.net/downloads/) or PlayOnLinux that can install Windows Steam and can download the Wine versions that can be seen above. Windows Steam can install the game and the necessary libraries.\
 If you are a terminal/Wine ninja and you are ok with compiling Wine v3.10 for the system (system default Wine v3.0 is no good) then don't install Lutris or PlayOnLinux, just Wine should be enough.
 
 _Note:\
 PlayOnLinux can be found in the Ubuntu repositories._
 
-### 0.1
-**Install Steam windows version.**
+### 0.1 Install Steam windows version
 
 It gave me an `content servers unreachable` error before downloading the game (it's a Windows Steam-Wine compatibility bug).\
 Editing the Steam config file solved it:\
@@ -112,10 +112,14 @@ _There are possible, alternative ways to install the game on Linux, for example 
 The client sets the `WINEPREFIX` environment variable before launching the game, this might interfere with Proton._
 
 
-[b]0.2[/b]
-Install Supreme Commander Forged Alliance using Steam
-It installs it to: 
-/home/test1/.local/share/lutris/runners/winesteam/prefix64/drive_c/Program Files (x86)/Steam/steamapps/common/Supreme Commander Forged Alliance/bin/SupremeCommander.exe
+### 0.2 Install Supreme Commander Forged Alliance using Steam
+
+Steam installs the game to:\
+`/home/test1/.local/share/lutris/runners/winesteam/prefix64/drive_c/Program Files (x86)/Steam/steamapps/common/Supreme Commander Forged Alliance/bin/SupremeCommander.exe`
+
+_Note:_
+- `/home/test1/.local/share/lutris/runners/winesteam/prefix64/` is the `WINEPREFIX` 
+- `drive_c/Program Files (x86)/Steam/steamapps/common/Supreme Commander Forged Alliance/bin/SupremeCommander.exe` is the directory of the game in the fake Windows C:\ drive. 
 
 Game.perfs:
 /home/test1/.local/share/lutris/runners/winesteam/prefix64/drive_c/users/test1/Local Settings/Application Data/Gas Powered Games/Supreme Commander Forged Alliance/Game.prefs
