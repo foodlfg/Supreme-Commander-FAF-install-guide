@@ -131,7 +131,7 @@ The location of the `Game.perfs` file:
 Test the base game. At launch, Steam installs the necessary directx dlls.
 
 _Note:\_
-_If you use a retail ISO of the game, then you should follow the wiki:_\
+_If you use a retail (ISO) copy of the game, then you should follow the wiki:_\
 https://wiki.faforever.com/index.php?title=Setting_Up_FAF_Linux#Install_using_the_retail_ISO
 
 
