@@ -14,7 +14,8 @@ If you have additional questions please contact the community:
  - [FAF forum Linux support thread](http://forums.faforever.com/viewtopic.php?t=4507)
  - [The official FAF Discord Channel: #technical-help](https://discordapp.com/channels/197033481883222026/202928463076786176)
 
-
+_Note:_
+_This guide only features the legacy Python client. The new Java Downlord's client will be added later. The development of the Python client stopped so the community only supports the Java client. Currently both works._
 
 ## System properties
 - **Ubuntu 18.04 LTS, 18.10**
