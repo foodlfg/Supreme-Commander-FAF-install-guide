@@ -114,7 +114,7 @@ The client sets the `WINEPREFIX` environment variable before launching the game,
 
 ### 0.2 Install Supreme Commander Forged Alliance using Steam
 
-Steam installs the game to:\
+Steam installs the game to:
 
     /home/test1/.local/share/lutris/runners/winesteam/prefix64/drive_c/Program Files (x86)/Steam/steamapps/common/Supreme Commander Forged Alliance/bin/SupremeCommander.exe
 
