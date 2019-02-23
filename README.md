@@ -122,7 +122,7 @@ _Note:_
 - `/home/test1/.local/share/lutris/runners/winesteam/prefix64/` is the `WINEPREFIX`. This can be different for you depending on which program you use setting up the Wine environment (Lutris, PlayOnLinux). 
 - `drive_c/Program Files (x86)/Steam/steamapps/common/Supreme Commander Forged Alliance/bin/SupremeCommander.exe` is the directory of the game in the fake Windows `C:\` drive in your Linux file system.
 
-**Additional Info:**
+**Additional Info:**\
 The location of the `Game.perfs` file:
 
     ../drive_c/users/test1/Local Settings/Application Data/Gas Powered Games/Supreme Commander Forged Alliance/Game.prefs
@@ -358,7 +358,8 @@ Modify the `FA Lobby.ini` file to use the correct Wine version etc.\
     exe=/home/test1/.local/share/lutris/runners/wine/3.10-x86_64/bin/wine
     prefix=/home/test1/.local/share/lutris/runners/winesteam/prefix64
 
-
+_Note:_\
+_The `prefix=` is your `WINEPREFIX` that was mentioned earlier._
 
 ## Launch games from the client
 
