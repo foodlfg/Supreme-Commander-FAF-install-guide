@@ -363,12 +363,12 @@ Normal terminal output:
 
 
 
-## Setting up the FaF Client
+## Setting up the FAF Client
 
 ### 2.0 Setting up the client
 
-Options -> Settings -> Game Path, for me it's:
-/home/test1/.local/share/lutris/runners/winesteam/prefix64/drive_c/Program Files (x86)/Steam/steamapps/common/Supreme Commander Forged Alliance
+Options -> Settings -> Game Path, for me it's:\
+`/home/test1/.local/share/lutris/runners/winesteam/prefix64/drive_c/Program Files (x86)/Steam/steamapps/common/Supreme Commander Forged Alliance`
 
 ### 2.1 Modifying FA Lobby.ini 
 
