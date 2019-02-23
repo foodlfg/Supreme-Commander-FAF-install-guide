@@ -1,4 +1,26 @@
+- [Supreme Commander FAF install guide](#supreme-commander-faf-install-guide)
+  * [System properties](#system-properties)
+  * [Installing the game](#installing-the-game)
+    + [0.0 Install Lutris or PlayOnLinux](#00-install-lutris-or-playonlinux)
+    + [0.1 Install Steam windows version](#01-install-steam-windows-version)
+    + [0.2 Install Supreme Commander Forged Alliance using Steam](#02-install-supreme-commander-forged-alliance-using-steam)
+    + [0.3 Test the vanilla game](#03-test-the-vanilla-game)
+  * [Setting up the system](#setting-up-the-system)
+    + [1.0 Download the Python client](#10-download-the-python-client)
+    + [1.1 Create the release version file](#11-create-the-release-version-file)
+    + [1.2 Install packages](#12-install-packages)
+    + [1.3 Run the client](#13-run-the-client)
+  * [Setting up the FaF Client](#setting-up-the-faf-client)
+    + [2.0 Setting up the client](#20-setting-up-the-client)
+    + [2.1 Modifying FA Lobby.ini](#21-modifying-fa-lobbyini)
+  * [Launch games from the client](#launch-games-from-the-client)
+    + [Issues with the game, mods, maps](#issues-with-the-game--mods--maps)
+  * [Edit notes](#edit-notes)
+  * [Author](#author)
+
 # Supreme Commander FAF install guide
+
+
 Supreme Commander Forged Alliance Forever (FAF) install guide on Ubuntu
 18.04 LTS and 18.10
 
@@ -133,7 +155,8 @@ Test the base game. At launch, Steam installs the necessary directx dlls.
 
 _Note:_\
 _If you use a retail (ISO) copy of the game then you should follow the wiki:_\
-https://wiki.faforever.com/index.php?title=Setting_Up_FAF_Linux#Install_using_the_retail_ISO
+https://wiki.faforever.com/index.php?title=Setting_Up_FAF_Linux#Install_using_the_retail_ISO \
+
 
 
 ## Setting up the system
