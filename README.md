@@ -17,9 +17,11 @@ _test1@comp1:~$ uname -a_
     Linux comp1 4.15.0-20-generic #21-Ubuntu SMP Tue Apr 24 06:16:15 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
 
 - **Wine**, custom downloaded by Lutris or PlayOnLinux (see below)
-Wine 3.10-x86_64
 
-[b]Graphics info[/b]
+Wine 3.10, Wine 3.16, Wine 4.0 tested and work
+System default Wine 3.0 cannot run the game
+
+- **Graphics info**
 test1@comp1:~$ glxinfo | grep 'version'
 [code]server glx version string: 1.4
 client glx version string: 1.4
