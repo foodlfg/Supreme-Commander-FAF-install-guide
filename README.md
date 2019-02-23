@@ -87,7 +87,8 @@ _test1@comp1:~$ glxinfo | grep 'Extended renderer info' -A 30_
 Install [Lutris](https://lutris.net/downloads/) or PlayOnLinux that can install Windows Steam and can download the Wine versions that can be seen above. Windows Steam can install the game and the necessary libraries.
 If you are a terminal/Wine ninja and you are ok with compiling Wine v3.10 for the system (system default Wine v3.0 is no good) then don't install Lutris or PlayOnLinux, just Wine should be enough.
 
-PlayOnLinux can be found in the Ubuntu repositories.
+_Note:
+PlayOnLinux can be found in the Ubuntu repositories._
 
 ### 0.1
 **Install Steam windows version.**
@@ -104,8 +105,8 @@ Location of the Steam config files:
 Linux: `~/.steam/steam/config/config.vdf`
 Windows: `"your wine prefix directory"/drive_c/Program Files/Steam/config/config.vdf`
 
-_Note:_
-_I recommend using Wine v2.x when you install Windows Steam (there are some logging in issues otherwise) then switch to Wine v3.10+ when you try to run the game from Windows Steam._
+_Note:
+I recommend using Wine v2.x when you install Windows Steam (there are some logging in issues otherwise) then switch to Wine v3.10+ when you try to run the game from Windows Steam._
 
 _There are possible, alternative ways to install the game on Linux, for example using Linux Steam and enabling Proton but this is not tested with Legacy Python Client. 
 The client sets the WINEPREFIX environment variable before launching the game, this might interfere with Proton._
