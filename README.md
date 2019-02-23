@@ -88,14 +88,17 @@ If you are a terminal/Wine ninja and you are ok with compiling Wine v3.10 for th
 
 PlayOnLinux can be found in the Ubuntu repositories.
 
-**0.1**
-Install Steam windows version (I've bought the game on Steam)
-It gave me an error when downloading the game (it's a new Steam-Wine compatibility bug):
+### 0.1
+**Install Steam windows version.**
+
+It gave me an `content servers unreachable` error before downloading the game (it's a Windows Steam-Wine compatibility bug). 
 Editing the Steam config file solved it:
 https://www.reddit.com/r/wine_gaming/comments/8r0gh6/steam_in_winedevel_content_servers_unreachable/e0riqd9/
-Short version:
+
+**Short version**
 Install Linux Steam, download a random game (ex: Doki Doki Literature Club!), then find the Steam config file called `config.vdf`.
 Then you copypasta the line beginning with `"CS"` from the linux Steam config file to the Windows Steam config file.
+
 Location of the Steam config files:
 Linux: `~/.steam/steam/config/config.vdf`
 Windows: `"your wine prefix directory"/drive_c/Program Files/Steam/config/config.vdf`
