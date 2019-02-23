@@ -157,7 +157,7 @@ Command applied:\
 
 ### 1.2 Install packages
 
-Installing packages from the Ubuntu repository:\
+Installing packages from Ubuntu repositories:\
 `test1@comp1:~/Games/fafclient$ sudo apt-get install python3-idna python3-semantic-version python3-pyqt5 python3-pyqt5.qtwebengine python3-pyqt5.qtmultimedia python3-jsonschema python3-jinja2 xdelta3`
 
 Terminal output:
