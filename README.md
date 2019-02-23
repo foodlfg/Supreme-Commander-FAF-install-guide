@@ -1,12 +1,19 @@
 # Supreme-Commander-FAF-install-guide
-Supreme Commander FAF install guide on Ubuntu
-18.04 LTS, 18.10
+Supreme Commander Forged Alliance Forever (FAF) install guide on Ubuntu
+18.04 LTS and 18.10
 
 
 It works!
-So if you have problems running the game/client on Ubuntu 18.04, follow the steps below.
-The wiki is outdated but still useful.
+If you have problems running the game/client on Ubuntu 18.xx, follow the steps below.
+
+The wiki is outdated but still useful:
 https://wiki.faforever.com/index.php?title=Setting_Up_FAF_Linux
+
+
+If you have additional questions please contact the community:
+ - [FAF forum Linux support thread](http://forums.faforever.com/viewtopic.php?t=4507)
+ - [The official FAF Discord Channel: #technical-help](https://discordapp.com/channels/197033481883222026/202928463076786176)
+
 
 
 ## System properties
@@ -39,45 +46,45 @@ _test1@comp1:~$ glxinfo | grep 'version'_
     OpenGL ES profile version string: OpenGL ES 3.1 Mesa 18.0.0-rc5
     OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.10
 
-test1@comp1:~$ glxinfo | grep 'Extended renderer info' -A 30
-[code]Extended renderer info (GLX_MESA_query_renderer):
-    Vendor: X.Org (0x1002)
-    Device: Radeon RX 560 Series (POLARIS11 / DRM 3.23.0 / 4.15.0-20-generic, LLVM 6.0.0) (0x67ff)
-    Version: 18.0.0
-    Accelerated: yes
-    Video memory: 4062MB
-    Unified memory: no
-    Preferred profile: core (0x1)
-    Max core profile version: 4.5
-    Max compat profile version: 3.0
-    Max GLES1 profile version: 1.1
-    Max GLES[23] profile version: 3.1
-Memory info (GL_ATI_meminfo):
-    VBO free memory - total: 4062 MB, largest block: 4062 MB
-    VBO free aux. memory - total: 4092 MB, largest block: 4092 MB
-    Texture free memory - total: 4062 MB, largest block: 4062 MB
-    Texture free aux. memory - total: 4092 MB, largest block: 4092 MB
-    Renderbuffer free memory - total: 4062 MB, largest block: 4062 MB
-    Renderbuffer free aux. memory - total: 4092 MB, largest block: 4092 MB
-Memory info (GL_NVX_gpu_memory_info):
-    Dedicated video memory: 4062 MB
-    Total available memory: 8156 MB
-    Currently available dedicated video memory: 4062 MB
-OpenGL vendor string: X.Org
-OpenGL renderer string: Radeon RX 560 Series (POLARIS11 / DRM 3.23.0 / 4.15.0-20-generic, LLVM 6.0.0)
-OpenGL core profile version string: 4.5 (Core Profile) Mesa 18.0.0-rc5
-OpenGL core profile shading language version string: 4.50
-OpenGL core profile context flags: (none)
-OpenGL core profile profile mask: core profile
-OpenGL core profile extensions:
-    GL_AMD_conservative_depth, GL_AMD_draw_buffers_blend, [/code]
+_test1@comp1:~$ glxinfo | grep 'Extended renderer info' -A 30_
+
+    Extended renderer info (GLX_MESA_query_renderer):
+        Vendor: X.Org (0x1002)
+        Device: Radeon RX 560 Series (POLARIS11 / DRM 3.23.0 / 4.15.0-20-generic, LLVM 6.0.0) (0x67ff)
+        Version: 18.0.0
+        Accelerated: yes
+        Video memory: 4062MB
+        Unified memory: no
+        Preferred profile: core (0x1)
+        Max core profile version: 4.5
+        Max compat profile version: 3.0
+        Max GLES1 profile version: 1.1
+        Max GLES[23] profile version: 3.1
+    Memory info (GL_ATI_meminfo):
+        VBO free memory - total: 4062 MB, largest block: 4062 MB
+        VBO free aux. memory - total: 4092 MB, largest block: 4092 MB
+        Texture free memory - total: 4062 MB, largest block: 4062 MB
+        Texture free aux. memory - total: 4092 MB, largest block: 4092 MB
+        Renderbuffer free memory - total: 4062 MB, largest block: 4062 MB
+        Renderbuffer free aux. memory - total: 4092 MB, largest block: 4092 MB
+    Memory info (GL_NVX_gpu_memory_info):
+        Dedicated video memory: 4062 MB
+        Total available memory: 8156 MB
+        Currently available dedicated video memory: 4062 MB
+    OpenGL vendor string: X.Org
+    OpenGL renderer string: Radeon RX 560 Series (POLARIS11 / DRM 3.23.0 / 4.15.0-20-generic, LLVM 6.0.0)
+    OpenGL core profile version string: 4.5 (Core Profile) Mesa 18.0.0-rc5
+    OpenGL core profile shading language version string: 4.50
+    OpenGL core profile context flags: (none)
+    OpenGL core profile profile mask: core profile
+    OpenGL core profile extensions:
+        GL_AMD_conservative_depth, GL_AMD_draw_buffers_blend, 
 
 
-[b][size=150]Installing the game[/size][/b]
-[b]0.0[/b]
-Install Lutris or PlayOnLinux that can install Windows Steam and can download the Wine version that can be seen above. Steam can install the game and the necessary libraries.
-https://lutris.net/downloads/
-If you are a terminal/Wine ninja and you are ok with compiling Wine v3.10 for the system (system default Wine 3.0 is no good) then don't install Lutris or PlayOnLinux, just Wine should be enough.
+## Installing the game
+### 0.0
+Install [Lutris](https://lutris.net/downloads/) or PlayOnLinux that can install Windows Steam and can download the Wine versions that can be seen above. Windows Steam can install the game and the necessary libraries.
+If you are a terminal/Wine ninja and you are ok with compiling Wine v3.10 for the system (system default Wine v3.0 is no good) then don't install Lutris or PlayOnLinux, just Wine should be enough.
 
 
 [b]0.1[/b]
@@ -336,3 +343,9 @@ details are here: http://forums.faforever.com/viewtopic.php?f=2&t=4507&start=560
 - explanation how to fix the Windows Steam error when it fails downloading the game
 - fixed issue, no audio when the game window is not active
 [/i]
+
+
+## Author
+written by foodlfg
+FAF user name: foodlfg
+
