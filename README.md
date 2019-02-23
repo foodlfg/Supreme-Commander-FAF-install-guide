@@ -349,39 +349,40 @@ Options -> Settings -> Game Path, for me it's:
 
 ### 2.1 Modifying FA Lobby.ini 
 
-Modifying FA Lobby.ini to use the correct Wine version etc
-/home/test1/.config/ForgedAllianceForever/FA Lobby.ini
-Added:
-[i][wine]
-exe=/home/test1/.local/share/lutris/runners/wine/3.10-x86_64/bin/wine
-prefix=/home/test1/.local/share/lutris/runners/winesteam/prefix64[/i]
+Modify the `FA Lobby.ini` file to use the correct Wine version etc.\
+`/home/test1/.config/ForgedAllianceForever/FA Lobby.ini`
+
+**Added:**
+
+    [wine]
+    exe=/home/test1/.local/share/lutris/runners/wine/3.10-x86_64/bin/wine
+    prefix=/home/test1/.local/share/lutris/runners/winesteam/prefix64
 
 
 
-[size=150][b]Launch games from the client[/b][/size]
+## Launch games from the client
+
 At this point it will work.
 
 
 
-[size=150][b]Issues with the game, mods, maps[/b][/size]
+### Issues with the game, mods, maps
 - If you experience mouse cursor flickering, disable vsync in the game settings/video
-- If the downloaded mods or maps don't show up in the lobby or you're automatically kicked out from lobbies that use mods:
-you need to create links for the game to be able to find downloaded mods and maps.
-details are here: http://forums.faforever.com/viewtopic.php?f=2&t=4507&start=560#p168893
+- If the downloaded mods or maps don't show up in the lobby or you're automatically kicked out from lobbies that use mods:\
+You need to create links for the game to be able to find downloaded mods and maps. Details are here: http://forums.faforever.com/viewtopic.php?f=2&t=4507&start=560#p168893
 - If you have no sound when the game window is not active (not focused, minimized), then enable "Emulate a virtual desktop" option with winecfg, its under the Graphics tab. The resolution is your native resolution (you have to set this too).
 
 
-[i]edited
-- typos
+## Edit notes
 - solution for cursor flickering
 - xdelta3 install, see more here: https://forums.faforever.com/viewtopic.php?f=2&t=4507&start=550#p168646
 - the game cannot use downloaded mods and maps
 - explanation how to fix the Windows Steam error when it fails downloading the game
 - fixed issue, no audio when the game window is not active
-[/i]
 
 
 ## Author
-written by foodlfg
-FAF user name: foodlfg
+
+**Written by:** foodlfg\
+**FAF user name:** foodlfg
 
