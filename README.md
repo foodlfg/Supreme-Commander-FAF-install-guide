@@ -11,8 +11,7 @@ https://wiki.faforever.com/index.php?title=Setting_Up_FAF_Linux
 
 ## System properties
 - **Ubuntu 18.04 LTS, 18.10**
-_test1@comp1:~$ uname -a_
-
+- _test1@comp1:~$ uname -a_
     Linux comp1 4.15.0-20-generic #21-Ubuntu SMP Tue Apr 24 06:16:15 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
 
 - **Wine**, custom downloaded by Lutris or PlayOnLinux (see below)
