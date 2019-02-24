@@ -141,8 +141,8 @@ Steam installs the game to:
     /home/test1/.local/share/lutris/runners/winesteam/prefix64/drive_c/Program Files (x86)/Steam/steamapps/common/Supreme Commander Forged Alliance/bin/SupremeCommander.exe
 
 _Note:_
-- `/home/test1/.local/share/lutris/runners/winesteam/prefix64/` is the `WINEPREFIX`. This can be different for you depending on which program you use setting up the Wine environment (Lutris, PlayOnLinux). 
-- `drive_c/Program Files (x86)/Steam/steamapps/common/Supreme Commander Forged Alliance/bin/SupremeCommander.exe` is the directory of the game in the fake Windows `C:\` drive in your Linux file system.
+- `/home/test1/.local/share/lutris/runners/winesteam/prefix64/` is the `WINEPREFIX`. This can be different for you depending on which program you use setting up the Wine environment (Lutris, PlayOnLinux, etc). The `WINEPREFIX` contains the fake Windows file system, fake Windows registry, etc.
+- `drive_c/Program Files (x86)/Steam/steamapps/common/Supreme Commander Forged Alliance/bin/SupremeCommander.exe` is the directory of the game under the fake Windows `C:\` drive in your Linux file system.
 
 **Additional Info:**\
 The location of the `Game.perfs` file:
