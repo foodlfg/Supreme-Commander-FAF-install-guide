@@ -21,7 +21,7 @@
 # Supreme Commander FAF install guide
 
 
-Supreme Commander Forged Alliance and Forged Alliance Forever (FAF) client install guide on Ubuntu
+This is a **Supreme Commander Forged Alliance** and **Forged Alliance Forever (FAF) client** install guide on Ubuntu
 18.04 LTS and 18.10
 
 
@@ -397,7 +397,7 @@ At this point it will work.
 - If the downloaded mods or maps don't show up in the lobby or you're automatically kicked out from lobbies that use mods:\
 You need to create links for the game to be able to find downloaded mods and maps. Details are here: http://forums.faforever.com/viewtopic.php?f=2&t=4507&start=560#p168893
 - If you have no sound when the game window is not active (not focused, minimized), then enable "Emulate a virtual desktop" option with winecfg, its under the Graphics tab. The resolution is your native resolution (you have to set this too).
-
+- Running the game on Linux causing the game to not render certain minor graphic effects. Currently there  is no fix for this.
 
 ## Edit notes
 - solution for cursor flickering
