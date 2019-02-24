@@ -382,6 +382,7 @@ Modify the `FA Lobby.ini` file to use the correct Wine version etc.\
     prefix=/home/test1/.local/share/lutris/runners/winesteam/prefix64
 
 _Note:_\
+_The `exe=` is your full path to the Wine executable in your Linux file system. You can only run Windows executables via Wine on Linux_\
 _The `prefix=` is your `WINEPREFIX` that was mentioned earlier._
 
 ## Launch games from the client
