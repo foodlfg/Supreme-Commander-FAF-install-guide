@@ -349,7 +349,7 @@ Terminal output:
 ### 1.3 Run the client
 Run the client. It should work at this point.
 
-`test1@comp1:~/Games/fafclient$ python3 client-0.18.1/src/__main__.py`
+Command: `test1@comp1:~/Games/fafclient$ python3 client-0.18.1/src/__main__.py`
 
 Normal terminal output:
 
@@ -372,8 +372,9 @@ Options -> Settings -> Game Path, for me it's:\
 
 ### 2.1 Modifying FA Lobby.ini 
 
+**Exit the client (this is important).**\
 Modify the `FA Lobby.ini` file to use the correct Wine version etc.\
-`/home/test1/.config/ForgedAllianceForever/FA Lobby.ini`
+Location: `/home/test1/.config/ForgedAllianceForever/FA Lobby.ini`
 
 **Added:**
 
@@ -387,6 +388,7 @@ _The `prefix=` is your `WINEPREFIX` that was mentioned earlier._
 
 ## Launch games from the client
 
+Relaunch the client and launch games from the client.
 At this point it will work.
 
 
