@@ -14,14 +14,14 @@
     + [2.0 Setting up the client](#20-setting-up-the-client)
     + [2.1 Modifying FA Lobby.ini](#21-modifying-fa-lobbyini)
   * [Launch games from the client](#launch-games-from-the-client)
-    + [Issues with the game, mods, maps](#issues-with-the-game--mods--maps)
+  * [Issues with the game, mods, maps](#issues-with-the-game--mods--maps)
   * [Edit notes](#edit-notes)
   * [Author](#author)
 
 # Supreme Commander FAF install guide
 
 
-Supreme Commander Forged Alliance Forever (FAF) install guide on Ubuntu
+Supreme Commander Forged Alliance and Forged Alliance Forever (FAF) client install guide on Ubuntu
 18.04 LTS and 18.10
 
 
@@ -391,7 +391,8 @@ At this point it will work.
 
 
 
-### Issues with the game, mods, maps
+## Issues with the game, mods, maps
+
 - If you experience mouse cursor flickering, disable vsync in the game settings/video
 - If the downloaded mods or maps don't show up in the lobby or you're automatically kicked out from lobbies that use mods:\
 You need to create links for the game to be able to find downloaded mods and maps. Details are here: http://forums.faforever.com/viewtopic.php?f=2&t=4507&start=560#p168893
