@@ -14,7 +14,7 @@
     + [2.0 Setting up the client](#20-setting-up-the-client)
     + [2.1 Modifying FA Lobby.ini](#21-modifying-fa-lobbyini)
   * [Launch games from the client](#launch-games-from-the-client)
-  * [Issues with the game, mods, maps](#issues-with-the-game--mods--maps)
+  * [Issues with the game, mods, maps](#issues-with-the-game-mods-maps)
   * [Edit notes](#edit-notes)
   * [Author](#author)
 
