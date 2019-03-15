@@ -10,7 +10,7 @@
     + [1.1 Create the release version file](#11-create-the-release-version-file)
     + [1.2 Install packages](#12-install-packages)
     + [1.3 Run the client](#13-run-the-client)
-  * [Setting up the FaF Client](#setting-up-the-faf-client)
+  * [Setting up the FAF Client](#setting-up-the-faf-client)
     + [2.0 Setting up the client](#20-setting-up-the-client)
     + [2.1 Modifying FA Lobby.ini](#21-modifying-fa-lobbyini)
   * [Launch games from the client](#launch-games-from-the-client)
@@ -412,5 +412,5 @@ You need to create links for the game to be able to find downloaded mods and map
 ## Author
 
 **Written by:** foodlfg\
-**FAF user name:** foodlfg
-
+**FAF user name:** foodlfg\
+**FAF Discord user name:** foodlfg
