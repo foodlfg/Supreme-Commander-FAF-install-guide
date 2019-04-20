@@ -20,6 +20,12 @@
 
 # Supreme Commander FAF install guide
 
+# !NOTICE
+The phython client featured in this guide has become incompatible with the current FAF server.
+Please follow the FAF wiki on how to play the game on Linux.
+https://wiki.faforever.com/index.php?title=Setting_Up_FAF_Linux
+
+------------------------------
 
 This is a **Supreme Commander Forged Alliance** and **Forged Alliance Forever (FAF) client** install guide on Ubuntu
 18.04 LTS and 18.10
@@ -27,9 +33,6 @@ This is a **Supreme Commander Forged Alliance** and **Forged Alliance Forever (F
 
 It works!\
 If you have problems running the game/client on Ubuntu 18.xx, follow the steps below.
-
-The wiki is outdated but still useful:\
-https://wiki.faforever.com/index.php?title=Setting_Up_FAF_Linux
 
 
 If you have questions please contact the community:
